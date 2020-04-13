@@ -1,0 +1,27 @@
+{
+  "name": "express-sqllight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-auto-fix": "^1.0.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.10.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  }
+}
